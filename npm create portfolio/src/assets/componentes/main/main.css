@@ -1,0 +1,26 @@
+main {
+  background-image: url();
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
+}
+
+.contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mainContenido {
+  width: 600px;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.title {
+  font-size: 65px;
+  color: yellow;
+}

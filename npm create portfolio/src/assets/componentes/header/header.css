@@ -1,0 +1,17 @@
+.encabezado {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  padding: 20px;
+}
+
+.navegacion ul {
+  list-style: none;
+  position: fixed;
+  gap: 10px;
+  display: flex;
+}
+
+.navegacion ul a {
+  text-decoration: none;
+}
