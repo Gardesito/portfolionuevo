@@ -1,16 +1,20 @@
 import React from "react";
 import "./main.css";
+
 const Main = () => {
   return (
     <>
-      <main>
-        <div className="mainContenido">
-          <h1 className="title">Elias Solis</h1>
-          <h3 className="subtitulo">soy yo</h3>
-          <button className="btn">conocer mas</button>
+      <main className="main">
+        <div className="contenido">
+          <div className="content">
+            <h1 className="titulo yellow">Cecilia Prado</h1>
+            <h3 className="subtitulo">Full stack developer</h3>
+            <button className="btn-main">Conocer más</button>
+          </div>
         </div>
       </main>
     </>
   );
 };
+
 export { Main };
